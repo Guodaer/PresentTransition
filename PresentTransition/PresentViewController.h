@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PresentViewController.h
 //  PresentTransition
 //
 //  Created by X-Designer on 16/11/9.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface PresentViewController : UIViewController
+
+@property (nonatomic, strong) UIImageView *presentImgView;
 
 
 @end
-
